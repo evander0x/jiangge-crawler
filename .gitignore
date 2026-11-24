@@ -1,0 +1,31 @@
+# Python 虚拟环境
+venv/
+
+# 个人隐私
+.cookie.txt
+
+# 生成的图片和故事成片
+story_images/
+story/stories/*
+!story/stories/鸡得休息呀/
+story/stories/鸡得休息呀/*
+!story/stories/鸡得休息呀/final/
+!story/stories/鸡得休息呀/story.txt
+generated-images/
+wx_covers/
+output/
+publish_tasks/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 日志
+logs/
+
+# macOS
+.DS_Store
+
+# 本地依赖与浏览器运行目录
+node_modules/
+.playwright/
